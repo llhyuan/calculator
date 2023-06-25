@@ -18,7 +18,6 @@ function App() {
   const [state, dispatch] = useReducer(reducerImmediate, initialState);
   //const [calculatorMode, setCalculatorMode] = useState(false);
   //const [modeDisplay, setModeDisplay] = useState(false);
-  console.log(state);
 
   const buttonItems = buttons.map((button) => (
     <Button
